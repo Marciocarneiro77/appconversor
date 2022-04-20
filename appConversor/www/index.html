@@ -8,11 +8,24 @@
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
         <meta name="color-scheme" content="light dark">
+        <title>AppConversor</title>
+        <link rel="stylesheet" href="/www/bootstrap-5/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
-        <title>Hello World</title>
     </head>
     <body>
-        
+       <form class="formulario">
+           <label for="metros" class="rotulo">METROS:</label>
+           <input type ="number" name="metros" id="metros" class="campo-numero">
+           <br>
+<label CLASS="rotulo">CENTIMETROS:</label>
+<span id="centimetros" class="campo-numero"></span>
+<br>
+           
+           <button class="botao">Converter</button>
+       </form>
+
+        <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="/www/bootstrap-5/js/bootstrap.min.js"></script>
         <script src="cordova.js"></script>
         <script src="js/app.js"></script>
     </body>
